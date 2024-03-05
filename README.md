@@ -24,3 +24,55 @@ For detailed code explanation, refer to the provided server script.
 ![Home](/screensshoots/home.gif)
 ![Nice Job](/screensshoots/nicejob.gif)
 ![Two Users](/screensshoots/twousers.gif)
+
+
+## Installation
+
+To run the application locally, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone [https://github.com/your-username/chatapp.git](https://github.com/dxtaner/chatApp-nodejs)
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd chatApp-nodejs
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the server:
+
+    ```bash
+    npm start
+    ```
+
+5. Open your web browser and navigate to `http://localhost:3042` to access the ChatApp.
+
+## Technologies Used
+
+- Node.js
+- Express
+- Socket.IO
+- Bad Words (for profanity filtering)
+- dotenv (for environment variables)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
+
+## Links
+
+- Repository: [[GitHub](https://github.com/your-username/chatapp)](https://github.com/dxtaner/chatApp-nodejs/)
+
