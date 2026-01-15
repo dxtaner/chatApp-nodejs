@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Chat App</title>
+    <meta charset="UTF-8" />
+    <title>Chat App | Join</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="img/favicon.png" />
     <link rel="stylesheet" href="css/styles.min.css" />
     <link rel="stylesheet" href="css/footer.css" />
@@ -11,27 +13,26 @@
       <div class="centered-form_box">
         <h1>Join The Chat</h1>
         <form action="chat.html">
-          <label>Display name</label>
+          <label>Display Name</label>
           <input
             type="text"
             name="username"
             placeholder="Display name"
-            required />
+            required
+          />
+
           <label>Room</label>
-          <input type="text" name="room" placeholder="Room" required />
+          <input type="text" name="room" placeholder="Room name" required />
+
           <button>Join</button>
         </form>
       </div>
     </div>
 
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        fetch("footer.html")
-          .then((response) => response.text())
-          .then((data) => {
-            document.body.insertAdjacentHTML("beforeend", data);
-          });
-      });
+      fetch("footer.html")
+        .then((res) => res.text())
+        .then((html) => document.body.insertAdjacentHTML("beforeend", html));
     </script>
   </body>
 </html>
