@@ -18,13 +18,10 @@ This Node.js script implements a real-time chat application using Socket.IO. Her
 
 For detailed code explanation, refer to the provided server script.
 
-
 ## Screenshots
 
 ![Home](/screensshoots/home.gif)
-![Nice Job](/screensshoots/nicejob.gif)
-![Two Users](/screensshoots/twousers.gif)
-
+![Nice Job](/screensshoots/userconnect.gif)
 
 ## Installation
 
@@ -32,27 +29,27 @@ To run the application locally, follow these steps:
 
 1. Clone the repository:
 
-    ```bash
-    git clone [https://github.com/your-username/chatapp.git](https://github.com/dxtaner/chatApp-nodejs)
-    ```
+   ```bash
+   git clone [https://github.com/your-username/chatapp.git](https://github.com/dxtaner/chatApp-nodejs)
+   ```
 
 2. Navigate to the project directory:
 
-    ```bash
-    cd chatApp-nodejs
-    ```
+   ```bash
+   cd chatApp-nodejs
+   ```
 
 3. Install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 4. Start the server:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
 5. Open your web browser and navigate to `http://localhost:3042` to access the ChatApp.
 
@@ -75,4 +72,3 @@ This project is licensed under the terms of the MIT license. See the [LICENSE](L
 ## Links
 
 - Repository: [[GitHub](https://github.com/your-username/chatapp)](https://github.com/dxtaner/chatApp-nodejs/)
-
